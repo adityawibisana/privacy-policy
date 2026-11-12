@@ -1,6 +1,6 @@
 # PolyDict Privacy Policy
 
-Last updated: 10 November 2026
+Last updated: 12 November 2026
 
 PolyDict is an offline dictionary and translator for Android. This policy explains what happens to the information you use in the app.
 
@@ -23,9 +23,10 @@ You can remove all of this by clearing the app's storage in Android settings or 
 
 PolyDict uses the internet only for the following:
 
-1. **Dictionary details.** When you look up a word that is not saved yet and your device is online, the word (or its translation) is sent to:
+1. **Dictionary details and language suggestions.** When you look up a word that is not saved yet and your device is online, the word (or its translation) is sent to the services below. When the app can't tell on the device which language a word is in, the word is also sent to Google Translate and Wiktionary to suggest languages.
    - **kaikki.org**, which serves Wiktionary data. See the [kaikki.org website](https://kaikki.org) for its terms.
-   - **Google Translate** (`translate.googleapis.com`), to get definitions and examples. See the [Google Privacy Policy](https://policies.google.com/privacy).
+   - **Google Translate** (`translate.googleapis.com`), to get definitions and examples, and to suggest the language of a word the app can't identify on the device. See the [Google Privacy Policy](https://policies.google.com/privacy).
+   - **Wiktionary** (`en.wiktionary.org`), to suggest the language of a word the app can't identify on the device. See the [Wikimedia Foundation Privacy Policy](https://foundation.wikimedia.org/wiki/Policy:Privacy_policy).
 
    These requests contain the word and its language, plus the standard information any internet request includes, such as your IP address. They do not contain an account, a name or a device identifier from PolyDict.
 
@@ -37,7 +38,7 @@ PolyDict uses the internet only for the following:
 
    **The words you type, their translations and dictionary details are never included.** This data is processed by Google on the developer's behalf. See [Firebase privacy and security](https://firebase.google.com/support/privacy) and the [Google Privacy Policy](https://policies.google.com/privacy).
 
-Translation and language detection run on your device with Google ML Kit. The text you type is not sent anywhere for translation. ML Kit may send Google limited technical information, such as the device model, the Android version, the app version and performance metrics, to keep the service working. See the [ML Kit terms](https://developers.google.com/ml-kit/terms) for details.
+Translation and language detection run on your device with Google ML Kit. The text you type is not sent anywhere for translation, and it is sent for language detection only in the case described in item 1. ML Kit may send Google limited technical information, such as the device model, the Android version, the app version and performance metrics, to keep the service working. See the [ML Kit terms](https://developers.google.com/ml-kit/terms) for details.
 
 ## Children
 
